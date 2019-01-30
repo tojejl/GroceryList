@@ -19,37 +19,46 @@ public class GroceryList {
 //ask for how many items to purchase
         String item;
         out.println("Please list three items on your grocery shopping list.");
-        out.println("Item 1");
+        out.print("Item 1 ?  ");
         String item1 = keyboard.nextLine();
-        out.println("Item 2");
+        out.print("\n");
+        out.print("Item 2 ?  ");
         String item2 = keyboard.nextLine();
-        out.println("Item 3");
+        out.print("\n");
+        out.print("Item 3 ?  ");
         String item3 = keyboard.nextLine();
+        out.print("\n");
 
 
 //ask for quantity of items
         out.println("Now, please enter the quantity of each item.");
-        System.out.print("How many " + item1 + "?");
+        out.print("How many " + item1 + "?  ");
         quantity1 = keyboard.nextInt();
         keyboard.skip("\n");
-        System.out.print("How many " + item2 + "?");
+        out.print("\n");
+        out.print("How many " + item2 + "?  ");
         quantity2 = keyboard.nextInt();
         keyboard.skip("\n");
-        System.out.print("How many " + item3 + "?");
+        out.print("\n");
+        out.print("How many " + item3 + "?  ");
         quantity3 = keyboard.nextInt();
         keyboard.skip("\n");
+        out.print("\n");
 
 //ask for how much each item costs
         out.println("Now, please enter the price of each item.");
-        out.print("How much does one " + item1 + " cost?");
+        out.print("How much does one " + item1 + " cost?  ");
         costperitem1 = keyboard.nextFloat();
         keyboard.skip("\n");
-        out.println("How much does one " + item2 + " cost?");
+        out.print("\n");
+        out.print("How much does one " + item2 + " cost?  ");
         costperitem2 = keyboard.nextFloat();
         keyboard.skip("\n");
-        out.println("How much does one " + item3 + " cost?");
+        out.print("\n");
+        out.print("How much does one " + item3 + " cost?  ");
         costperitem3 = keyboard.nextFloat();
         keyboard.skip("\n");
+        out.print("\n");
 
 //Define subtotals variables per item
         float subBill1;
